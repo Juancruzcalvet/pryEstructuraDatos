@@ -12,6 +12,7 @@ namespace pryEstructuraDatos
         private string nom;
         private string tra;
         private Int32 cod;
+        private clsNodo sig;
 
         //Get busca la variable
         //Set establece la variable
@@ -25,10 +26,16 @@ namespace pryEstructuraDatos
             get { return nom; }
             set { nom = value; }
         }
-        public string Tra
+        public string Tramite
         {
             get { return tra; }
             set { tra = value; }
         }
-            }
+        //Para saber cual nodo va siguiente. "Conecta el eslabon"
+        public clsNodo Siguiente
+        {
+            get { return sig; }
+            set { sig = value; }
+        }
+    }
 }
