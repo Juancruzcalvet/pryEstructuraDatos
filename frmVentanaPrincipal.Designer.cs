@@ -34,12 +34,12 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.estructurasLinealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.colaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pilaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmCola = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmPila = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
             this.listaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.simpleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dobleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmSimple = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmDoble = new System.Windows.Forms.ToolStripMenuItem();
             this.estructurasNoLinealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arbolBinarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grafoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -96,27 +96,27 @@
             // estructurasLinealesToolStripMenuItem
             // 
             this.estructurasLinealesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.colaToolStripMenuItem,
-            this.pilaToolStripMenuItem,
+            this.tsmCola,
+            this.tsmPila,
             this.toolStripMenuItem2,
             this.listaToolStripMenuItem});
             this.estructurasLinealesToolStripMenuItem.Name = "estructurasLinealesToolStripMenuItem";
             this.estructurasLinealesToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
             this.estructurasLinealesToolStripMenuItem.Text = "Estructuras lineales";
             // 
-            // colaToolStripMenuItem
+            // tsmCola
             // 
-            this.colaToolStripMenuItem.Name = "colaToolStripMenuItem";
-            this.colaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.colaToolStripMenuItem.Text = "Cola...";
-            this.colaToolStripMenuItem.Click += new System.EventHandler(this.colaToolStripMenuItem_Click);
+            this.tsmCola.Name = "tsmCola";
+            this.tsmCola.Size = new System.Drawing.Size(180, 22);
+            this.tsmCola.Text = "Cola...";
+            this.tsmCola.Click += new System.EventHandler(this.colaToolStripMenuItem_Click);
             // 
-            // pilaToolStripMenuItem
+            // tsmPila
             // 
-            this.pilaToolStripMenuItem.Name = "pilaToolStripMenuItem";
-            this.pilaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pilaToolStripMenuItem.Text = "Pila...";
-            this.pilaToolStripMenuItem.Click += new System.EventHandler(this.pilaToolStripMenuItem_Click);
+            this.tsmPila.Name = "tsmPila";
+            this.tsmPila.Size = new System.Drawing.Size(180, 22);
+            this.tsmPila.Text = "Pila...";
+            this.tsmPila.Click += new System.EventHandler(this.pilaToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -126,24 +126,24 @@
             // listaToolStripMenuItem
             // 
             this.listaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.simpleToolStripMenuItem,
-            this.dobleToolStripMenuItem});
+            this.tsmSimple,
+            this.tsmDoble});
             this.listaToolStripMenuItem.Name = "listaToolStripMenuItem";
             this.listaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listaToolStripMenuItem.Text = "Lista";
             // 
-            // simpleToolStripMenuItem
+            // tsmSimple
             // 
-            this.simpleToolStripMenuItem.Name = "simpleToolStripMenuItem";
-            this.simpleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.simpleToolStripMenuItem.Text = "Simple...";
-            this.simpleToolStripMenuItem.Click += new System.EventHandler(this.simpleToolStripMenuItem_Click);
+            this.tsmSimple.Name = "tsmSimple";
+            this.tsmSimple.Size = new System.Drawing.Size(180, 22);
+            this.tsmSimple.Text = "Simple...";
+            this.tsmSimple.Click += new System.EventHandler(this.simpleToolStripMenuItem_Click);
             // 
-            // dobleToolStripMenuItem
+            // tsmDoble
             // 
-            this.dobleToolStripMenuItem.Name = "dobleToolStripMenuItem";
-            this.dobleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dobleToolStripMenuItem.Text = "Doble...";
+            this.tsmDoble.Name = "tsmDoble";
+            this.tsmDoble.Size = new System.Drawing.Size(180, 22);
+            this.tsmDoble.Text = "Doble...";
             // 
             // estructurasNoLinealesToolStripMenuItem
             // 
@@ -226,11 +226,11 @@
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem estructurasLinealesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem colaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pilaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmCola;
+        private System.Windows.Forms.ToolStripMenuItem tsmPila;
         private System.Windows.Forms.ToolStripMenuItem listaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem simpleToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dobleToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmSimple;
+        private System.Windows.Forms.ToolStripMenuItem tsmDoble;
         private System.Windows.Forms.ToolStripMenuItem estructurasNoLinealesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arbolBinarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem grafoToolStripMenuItem;

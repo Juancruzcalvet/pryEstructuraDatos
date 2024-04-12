@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.grpVista = new System.Windows.Forms.GroupBox();
-            this.lstLista = new System.Windows.Forms.ListBox();
-            this.dgvEstructuraCola = new System.Windows.Forms.DataGridView();
+            this.lstListaPila = new System.Windows.Forms.ListBox();
+            this.dgvEstructuraPila = new System.Windows.Forms.DataGridView();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Trámite = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,7 +52,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.grpVista.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEstructuraCola)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEstructuraPila)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -60,8 +60,8 @@
             // 
             // grpVista
             // 
-            this.grpVista.Controls.Add(this.lstLista);
-            this.grpVista.Controls.Add(this.dgvEstructuraCola);
+            this.grpVista.Controls.Add(this.lstListaPila);
+            this.grpVista.Controls.Add(this.dgvEstructuraPila);
             this.grpVista.Location = new System.Drawing.Point(12, 240);
             this.grpVista.Name = "grpVista";
             this.grpVista.Size = new System.Drawing.Size(687, 293);
@@ -69,25 +69,25 @@
             this.grpVista.TabStop = false;
             this.grpVista.Text = "Listado en una Grilla y Lista";
             // 
-            // lstLista
+            // lstListaPila
             // 
-            this.lstLista.FormattingEnabled = true;
-            this.lstLista.Location = new System.Drawing.Point(6, 18);
-            this.lstLista.Name = "lstLista";
-            this.lstLista.Size = new System.Drawing.Size(223, 264);
-            this.lstLista.TabIndex = 12;
+            this.lstListaPila.FormattingEnabled = true;
+            this.lstListaPila.Location = new System.Drawing.Point(6, 18);
+            this.lstListaPila.Name = "lstListaPila";
+            this.lstListaPila.Size = new System.Drawing.Size(223, 264);
+            this.lstListaPila.TabIndex = 12;
             // 
-            // dgvEstructuraCola
+            // dgvEstructuraPila
             // 
-            this.dgvEstructuraCola.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEstructuraCola.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvEstructuraPila.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEstructuraPila.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Codigo,
             this.Nombre,
             this.Trámite});
-            this.dgvEstructuraCola.Location = new System.Drawing.Point(235, 18);
-            this.dgvEstructuraCola.Name = "dgvEstructuraCola";
-            this.dgvEstructuraCola.Size = new System.Drawing.Size(446, 264);
-            this.dgvEstructuraCola.TabIndex = 11;
+            this.dgvEstructuraPila.Location = new System.Drawing.Point(235, 18);
+            this.dgvEstructuraPila.Name = "dgvEstructuraPila";
+            this.dgvEstructuraPila.Size = new System.Drawing.Size(446, 264);
+            this.dgvEstructuraPila.TabIndex = 11;
             // 
             // Codigo
             // 
@@ -152,6 +152,7 @@
             this.btnEliminar.TabIndex = 9;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // label4
             // 
@@ -204,6 +205,7 @@
             this.btnAgregar.TabIndex = 9;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // txtTramite
             // 
@@ -255,9 +257,12 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Image = global::pryEstructuraDatos.Properties.Resources._1200px_Pila_svg;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(217, 220);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
@@ -276,7 +281,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estructura de datos - Pila";
             this.grpVista.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEstructuraCola)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEstructuraPila)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -289,8 +294,8 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grpVista;
-        private System.Windows.Forms.ListBox lstLista;
-        private System.Windows.Forms.DataGridView dgvEstructuraCola;
+        private System.Windows.Forms.ListBox lstListaPila;
+        private System.Windows.Forms.DataGridView dgvEstructuraPila;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Trámite;

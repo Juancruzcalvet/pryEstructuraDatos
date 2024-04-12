@@ -31,7 +31,8 @@ namespace pryEstructuraDatos
                 txtTramite.Text = "";
                 txtNombreNuevo.Text = "";
                 txtCodigoNuevo.Text = "";
-                
+                MessageBox.Show("Ingresar datos");
+
             }
             else //Llenamos grilla, lista y archivo, agregamos datos y limpiamos textbox
             {
