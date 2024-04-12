@@ -116,6 +116,7 @@
             this.pilaToolStripMenuItem.Name = "pilaToolStripMenuItem";
             this.pilaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pilaToolStripMenuItem.Text = "Pila...";
+            this.pilaToolStripMenuItem.Click += new System.EventHandler(this.pilaToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -134,13 +135,14 @@
             // simpleToolStripMenuItem
             // 
             this.simpleToolStripMenuItem.Name = "simpleToolStripMenuItem";
-            this.simpleToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.simpleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.simpleToolStripMenuItem.Text = "Simple...";
+            this.simpleToolStripMenuItem.Click += new System.EventHandler(this.simpleToolStripMenuItem_Click);
             // 
             // dobleToolStripMenuItem
             // 
             this.dobleToolStripMenuItem.Name = "dobleToolStripMenuItem";
-            this.dobleToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.dobleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.dobleToolStripMenuItem.Text = "Doble...";
             // 
             // estructurasNoLinealesToolStripMenuItem
@@ -155,13 +157,13 @@
             // arbolBinarioToolStripMenuItem
             // 
             this.arbolBinarioToolStripMenuItem.Name = "arbolBinarioToolStripMenuItem";
-            this.arbolBinarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.arbolBinarioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.arbolBinarioToolStripMenuItem.Text = "Arbol binario...";
             // 
             // grafoToolStripMenuItem
             // 
             this.grafoToolStripMenuItem.Name = "grafoToolStripMenuItem";
-            this.grafoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.grafoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.grafoToolStripMenuItem.Text = "Grafo...";
             // 
             // baseDeDatosToolStripMenuItem

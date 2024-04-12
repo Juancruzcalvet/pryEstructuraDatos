@@ -33,7 +33,19 @@ namespace pryEstructuraDatos
         {
             frmEstructuraLinealCola frmEstructuraLinealCola = new frmEstructuraLinealCola();
             frmEstructuraLinealCola.Show();
-            this.Hide();
+            
+        }
+
+        private void simpleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListaSimple frmListaSimple = new frmListaSimple();
+            frmListaSimple.Show();
+        }
+
+        private void pilaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPila frmPila = new frmPila();
+            frmPila.ShowDialog();
         }
     }
 }
