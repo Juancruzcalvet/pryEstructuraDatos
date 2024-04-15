@@ -144,6 +144,7 @@
             this.tsmDoble.Name = "tsmDoble";
             this.tsmDoble.Size = new System.Drawing.Size(180, 22);
             this.tsmDoble.Text = "Doble...";
+            this.tsmDoble.Click += new System.EventHandler(this.tsmDoble_Click);
             // 
             // estructurasNoLinealesToolStripMenuItem
             // 

@@ -47,5 +47,11 @@ namespace pryEstructuraDatos
             frmPila frmPila = new frmPila();
             frmPila.ShowDialog();
         }
+
+        private void tsmDoble_Click(object sender, EventArgs e)
+        {
+            frmListaDoble frmListaDoble = new frmListaDoble();
+            frmListaDoble.Show();
+        }
     }
 }
