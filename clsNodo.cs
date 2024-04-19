@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
 
 namespace pryEstructuraDatos
 {
@@ -12,7 +14,8 @@ namespace pryEstructuraDatos
         private string nom;
         private string tra;
         private Int32 cod;
-        private clsNodo sig;
+        private clsNodo sig; 
+        private clsNodo ant;
 
         //Get busca la variable
         //Set establece la variable
@@ -36,6 +39,11 @@ namespace pryEstructuraDatos
         {
             get { return sig; }
             set { sig = value; }
+        }
+        public clsNodo Anterior
+        {
+            get { return ant; }
+            set { ant = value; }
         }
     }
 }

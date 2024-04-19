@@ -118,6 +118,7 @@
             // 
             // cmbCodigo
             // 
+            this.cmbCodigo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCodigo.FormattingEnabled = true;
             this.cmbCodigo.Location = new System.Drawing.Point(52, 35);
             this.cmbCodigo.Name = "cmbCodigo";
@@ -132,6 +133,7 @@
             this.btnEliminar.TabIndex = 9;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // label5
             // 
@@ -166,6 +168,7 @@
             this.btnAgregar.TabIndex = 9;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // txtTramite
             // 
@@ -173,7 +176,6 @@
             this.txtTramite.Name = "txtTramite";
             this.txtTramite.Size = new System.Drawing.Size(148, 20);
             this.txtTramite.TabIndex = 8;
-            this.txtTramite.TextChanged += new System.EventHandler(this.txtTramite_TextChanged);
             // 
             // txtNombreNuevo
             // 
@@ -237,6 +239,7 @@
             this.optAscendente.TabStop = true;
             this.optAscendente.Text = "Ascendente";
             this.optAscendente.UseVisualStyleBackColor = true;
+            this.optAscendente.CheckedChanged += new System.EventHandler(this.optAscendente_CheckedChanged);
             // 
             // optDescendiente
             // 
@@ -248,6 +251,7 @@
             this.optDescendiente.TabStop = true;
             this.optDescendiente.Text = "Descendiente";
             this.optDescendiente.UseVisualStyleBackColor = true;
+            this.optDescendiente.CheckedChanged += new System.EventHandler(this.optDescendiente_CheckedChanged);
             // 
             // pictureBox1
             // 

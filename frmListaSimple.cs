@@ -16,6 +16,7 @@ namespace pryEstructuraDatos
         {
             InitializeComponent();
         }
+
         clsListaSimple Lista = new clsListaSimple();
 
         private void btnAgregar_Click(object sender, EventArgs e)
