@@ -222,7 +222,7 @@
             // optOrdAsc
             // 
             this.optOrdAsc.AutoSize = true;
-            this.optOrdAsc.Location = new System.Drawing.Point(65, 78);
+            this.optOrdAsc.Location = new System.Drawing.Point(47, 73);
             this.optOrdAsc.Name = "optOrdAsc";
             this.optOrdAsc.Size = new System.Drawing.Size(126, 17);
             this.optOrdAsc.TabIndex = 12;
@@ -233,7 +233,7 @@
             // optPost
             // 
             this.optPost.AutoSize = true;
-            this.optPost.Location = new System.Drawing.Point(65, 180);
+            this.optPost.Location = new System.Drawing.Point(47, 175);
             this.optPost.Name = "optPost";
             this.optPost.Size = new System.Drawing.Size(73, 17);
             this.optPost.TabIndex = 13;
@@ -244,7 +244,7 @@
             // optPostOrden
             // 
             this.optPostOrden.AutoSize = true;
-            this.optPostOrden.Location = new System.Drawing.Point(65, 231);
+            this.optPostOrden.Location = new System.Drawing.Point(47, 226);
             this.optPostOrden.Name = "optPostOrden";
             this.optPostOrden.Size = new System.Drawing.Size(78, 17);
             this.optPostOrden.TabIndex = 14;
@@ -262,7 +262,7 @@
             // optOrdDesc
             // 
             this.optOrdDesc.AutoSize = true;
-            this.optOrdDesc.Location = new System.Drawing.Point(65, 129);
+            this.optOrdDesc.Location = new System.Drawing.Point(47, 124);
             this.optOrdDesc.Name = "optOrdDesc";
             this.optOrdDesc.Size = new System.Drawing.Size(133, 17);
             this.optOrdDesc.TabIndex = 15;
