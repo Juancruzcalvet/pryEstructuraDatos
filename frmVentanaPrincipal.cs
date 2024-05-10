@@ -21,7 +21,7 @@ namespace pryEstructuraDatos
         {
             frmDatosDesarrollador frmDatosDesarrollador = new frmDatosDesarrollador();
             frmDatosDesarrollador.Show();
-            this.Hide();
+            
         }
 
         private void sistemaToolStripMenuItem_Click(object sender, EventArgs e)
