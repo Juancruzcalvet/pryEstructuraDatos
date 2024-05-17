@@ -107,21 +107,21 @@
             // tsmCola
             // 
             this.tsmCola.Name = "tsmCola";
-            this.tsmCola.Size = new System.Drawing.Size(180, 22);
+            this.tsmCola.Size = new System.Drawing.Size(107, 22);
             this.tsmCola.Text = "Cola...";
             this.tsmCola.Click += new System.EventHandler(this.colaToolStripMenuItem_Click);
             // 
             // tsmPila
             // 
             this.tsmPila.Name = "tsmPila";
-            this.tsmPila.Size = new System.Drawing.Size(180, 22);
+            this.tsmPila.Size = new System.Drawing.Size(107, 22);
             this.tsmPila.Text = "Pila...";
             this.tsmPila.Click += new System.EventHandler(this.pilaToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(104, 6);
             // 
             // listaToolStripMenuItem
             // 
@@ -129,20 +129,20 @@
             this.tsmSimple,
             this.tsmDoble});
             this.listaToolStripMenuItem.Name = "listaToolStripMenuItem";
-            this.listaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listaToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.listaToolStripMenuItem.Text = "Lista";
             // 
             // tsmSimple
             // 
             this.tsmSimple.Name = "tsmSimple";
-            this.tsmSimple.Size = new System.Drawing.Size(180, 22);
+            this.tsmSimple.Size = new System.Drawing.Size(119, 22);
             this.tsmSimple.Text = "Simple...";
             this.tsmSimple.Click += new System.EventHandler(this.simpleToolStripMenuItem_Click);
             // 
             // tsmDoble
             // 
             this.tsmDoble.Name = "tsmDoble";
-            this.tsmDoble.Size = new System.Drawing.Size(180, 22);
+            this.tsmDoble.Size = new System.Drawing.Size(119, 22);
             this.tsmDoble.Text = "Doble...";
             this.tsmDoble.Click += new System.EventHandler(this.tsmDoble_Click);
             // 
@@ -158,14 +158,14 @@
             // arbolBinarioToolStripMenuItem
             // 
             this.arbolBinarioToolStripMenuItem.Name = "arbolBinarioToolStripMenuItem";
-            this.arbolBinarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.arbolBinarioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.arbolBinarioToolStripMenuItem.Text = "Arbol binario...";
             this.arbolBinarioToolStripMenuItem.Click += new System.EventHandler(this.arbolBinarioToolStripMenuItem_Click);
             // 
             // grafoToolStripMenuItem
             // 
             this.grafoToolStripMenuItem.Name = "grafoToolStripMenuItem";
-            this.grafoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.grafoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.grafoToolStripMenuItem.Text = "Grafo...";
             // 
             // baseDeDatosToolStripMenuItem
