@@ -240,6 +240,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmListaSimple";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estructura de datos lineal - Lista simple";
             this.grpVista.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstructuraCola)).EndInit();

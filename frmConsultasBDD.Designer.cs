@@ -61,6 +61,7 @@
             this.btnListar.TabIndex = 2;
             this.btnListar.Text = "Listar";
             this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
             // dgvConsultaBDD
             // 
@@ -82,7 +83,9 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmConsultasBDD";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consultas en Base de datos";
+            this.Load += new System.EventHandler(this.frmConsultasBDD_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsultaBDD)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

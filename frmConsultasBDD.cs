@@ -16,5 +16,23 @@ namespace pryEstructuraDatos
         {
             InitializeComponent();
         }
+        clsBaseDeDatos BD = new clsBaseDeDatos();
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+            if (txtConsulta.Text == string.Empty)
+            {
+                MessageBox.Show("Inserte una consulta");
+            }
+            else
+            {
+                string query = txtConsulta.Text;
+                BD.Listar(dgvConsultaBDD, query);
+            }
+        }
+
+        private void frmConsultasBDD_Load(object sender, EventArgs e)
+        {
+            BD.Listar(dgvConsultaBDD);
+        }
     }
 }

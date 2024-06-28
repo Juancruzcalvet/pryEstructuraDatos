@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.grpVista = new System.Windows.Forms.GroupBox();
+            this.lstArbol = new System.Windows.Forms.ListBox();
             this.optOrdDesc = new System.Windows.Forms.RadioButton();
             this.optPostOrden = new System.Windows.Forms.RadioButton();
             this.optPost = new System.Windows.Forms.RadioButton();
@@ -51,7 +52,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnEquilibrar = new System.Windows.Forms.Button();
             this.tvArbol = new System.Windows.Forms.TreeView();
-            this.lstArbol = new System.Windows.Forms.ListBox();
             this.grpVista.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArbol)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -72,6 +72,14 @@
             this.grpVista.TabIndex = 30;
             this.grpVista.TabStop = false;
             this.grpVista.Text = "Listado del árbol";
+            // 
+            // lstArbol
+            // 
+            this.lstArbol.FormattingEnabled = true;
+            this.lstArbol.Location = new System.Drawing.Point(591, 19);
+            this.lstArbol.Name = "lstArbol";
+            this.lstArbol.Size = new System.Drawing.Size(197, 303);
+            this.lstArbol.TabIndex = 16;
             // 
             // optOrdDesc
             // 
@@ -279,14 +287,6 @@
             this.tvArbol.Size = new System.Drawing.Size(260, 220);
             this.tvArbol.TabIndex = 31;
             // 
-            // lstArbol
-            // 
-            this.lstArbol.FormattingEnabled = true;
-            this.lstArbol.Location = new System.Drawing.Point(591, 19);
-            this.lstArbol.Name = "lstArbol";
-            this.lstArbol.Size = new System.Drawing.Size(197, 303);
-            this.lstArbol.TabIndex = 16;
-            // 
             // frmArbolBinario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -298,6 +298,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmArbolBinario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estructurar ramificadas - Árbol binario";
             this.grpVista.ResumeLayout(false);
             this.grpVista.PerformLayout();

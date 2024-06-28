@@ -274,6 +274,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "frmListaDoble";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista Doblemente Listada";
             this.grpVista.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstructuraCola)).EndInit();
